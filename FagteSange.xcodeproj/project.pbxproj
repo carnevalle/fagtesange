@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9960811016A346A40057783B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9960810F16A346A40057783B /* QuartzCore.framework */; };
+		9960811916A367E20057783B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9960811816A367E20057783B /* iCarousel.m */; };
+		9960811D16A3718E0057783B /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 9960811C16A3718E0057783B /* page.png */; };
 		99A23B20169A2A5A006E5C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A23B1F169A2A5A006E5C85 /* UIKit.framework */; };
 		99A23B22169A2A5A006E5C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A23B21169A2A5A006E5C85 /* Foundation.framework */; };
 		99A23B24169A2A5A006E5C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A23B23169A2A5A006E5C85 /* CoreGraphics.framework */; };
@@ -19,9 +22,19 @@
 		99A23B39169A2A5A006E5C85 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B37169A2A5A006E5C85 /* MainStoryboard_iPhone.storyboard */; };
 		99A23B3C169A2A5A006E5C85 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B3A169A2A5A006E5C85 /* MainStoryboard_iPad.storyboard */; };
 		99A23B3F169A2A5A006E5C85 /* FagteSangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A23B3E169A2A5A006E5C85 /* FagteSangeViewController.m */; };
+		99A23B4B169A2E36006E5C85 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B47169A2E36006E5C85 /* logo.png */; };
+		99A23B4C169A2E36006E5C85 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B48169A2E36006E5C85 /* sky.png */; };
+		99A23B4D169A2E36006E5C85 /* sky2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B49169A2E36006E5C85 /* sky2.png */; };
+		99A23B4E169A2E36006E5C85 /* sky3.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B4A169A2E36006E5C85 /* sky3.png */; };
+		99A23B50169A36FA006E5C85 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A23B4F169A36FA006E5C85 /* background.jpg */; };
+		99A23B53169A38DA006E5C85 /* FagteSangeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A23B52169A38DA006E5C85 /* FagteSangeSelectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9960810F16A346A40057783B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9960811716A367E20057783B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		9960811816A367E20057783B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		9960811C16A3718E0057783B /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page.png; path = resources/images/page.png; sourceTree = "<group>"; };
 		99A23B1B169A2A5A006E5C85 /* FagteSange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FagteSange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A23B1F169A2A5A006E5C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99A23B21169A2A5A006E5C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +52,13 @@
 		99A23B3B169A2A5A006E5C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		99A23B3D169A2A5A006E5C85 /* FagteSangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FagteSangeViewController.h; sourceTree = "<group>"; };
 		99A23B3E169A2A5A006E5C85 /* FagteSangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FagteSangeViewController.m; sourceTree = "<group>"; };
+		99A23B47169A2E36006E5C85 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = resources/images/logo.png; sourceTree = "<group>"; };
+		99A23B48169A2E36006E5C85 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = resources/images/sky.png; sourceTree = "<group>"; };
+		99A23B49169A2E36006E5C85 /* sky2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky2.png; path = resources/images/sky2.png; sourceTree = "<group>"; };
+		99A23B4A169A2E36006E5C85 /* sky3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky3.png; path = resources/images/sky3.png; sourceTree = "<group>"; };
+		99A23B4F169A36FA006E5C85 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = resources/images/background.jpg; sourceTree = "<group>"; };
+		99A23B51169A38DA006E5C85 /* FagteSangeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FagteSangeSelectViewController.h; sourceTree = "<group>"; };
+		99A23B52169A38DA006E5C85 /* FagteSangeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FagteSangeSelectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9960811016A346A40057783B /* QuartzCore.framework in Frameworks */,
 				99A23B20169A2A5A006E5C85 /* UIKit.framework in Frameworks */,
 				99A23B22169A2A5A006E5C85 /* Foundation.framework in Frameworks */,
 				99A23B24169A2A5A006E5C85 /* CoreGraphics.framework in Frameworks */,
@@ -55,14 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9960811616A367E20057783B /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				9960811716A367E20057783B /* iCarousel.h */,
+				9960811816A367E20057783B /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
 		99A23B10169A2A5A006E5C85 = {
 			isa = PBXGroup;
 			children = (
+				9960811616A367E20057783B /* iCarousel */,
 				99A23B25169A2A5A006E5C85 /* FagteSange */,
 				99A23B1E169A2A5A006E5C85 /* Frameworks */,
 				99A23B1C169A2A5A006E5C85 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		99A23B1C169A2A5A006E5C85 /* Products */ = {
 			isa = PBXGroup;
@@ -75,6 +107,7 @@
 		99A23B1E169A2A5A006E5C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9960810F16A346A40057783B /* QuartzCore.framework */,
 				99A23B1F169A2A5A006E5C85 /* UIKit.framework */,
 				99A23B21169A2A5A006E5C85 /* Foundation.framework */,
 				99A23B23169A2A5A006E5C85 /* CoreGraphics.framework */,
@@ -85,6 +118,7 @@
 		99A23B25169A2A5A006E5C85 /* FagteSange */ = {
 			isa = PBXGroup;
 			children = (
+				99A23B45169A2E0F006E5C85 /* resources */,
 				99A23B2E169A2A5A006E5C85 /* FagteSangeAppDelegate.h */,
 				99A23B2F169A2A5A006E5C85 /* FagteSangeAppDelegate.m */,
 				99A23B37169A2A5A006E5C85 /* MainStoryboard_iPhone.storyboard */,
@@ -92,6 +126,8 @@
 				99A23B3D169A2A5A006E5C85 /* FagteSangeViewController.h */,
 				99A23B3E169A2A5A006E5C85 /* FagteSangeViewController.m */,
 				99A23B26169A2A5A006E5C85 /* Supporting Files */,
+				99A23B51169A38DA006E5C85 /* FagteSangeSelectViewController.h */,
+				99A23B52169A38DA006E5C85 /* FagteSangeSelectViewController.m */,
 			);
 			path = FagteSange;
 			sourceTree = "<group>";
@@ -108,6 +144,27 @@
 				99A23B35169A2A5A006E5C85 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A23B45169A2E0F006E5C85 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				99A23B46169A2E1A006E5C85 /* images */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		99A23B46169A2E1A006E5C85 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9960811C16A3718E0057783B /* page.png */,
+				99A23B4F169A36FA006E5C85 /* background.jpg */,
+				99A23B47169A2E36006E5C85 /* logo.png */,
+				99A23B48169A2E36006E5C85 /* sky.png */,
+				99A23B49169A2E36006E5C85 /* sky2.png */,
+				99A23B4A169A2E36006E5C85 /* sky3.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +225,12 @@
 				99A23B36169A2A5A006E5C85 /* Default-568h@2x.png in Resources */,
 				99A23B39169A2A5A006E5C85 /* MainStoryboard_iPhone.storyboard in Resources */,
 				99A23B3C169A2A5A006E5C85 /* MainStoryboard_iPad.storyboard in Resources */,
+				99A23B4B169A2E36006E5C85 /* logo.png in Resources */,
+				99A23B4C169A2E36006E5C85 /* sky.png in Resources */,
+				99A23B4D169A2E36006E5C85 /* sky2.png in Resources */,
+				99A23B4E169A2E36006E5C85 /* sky3.png in Resources */,
+				99A23B50169A36FA006E5C85 /* background.jpg in Resources */,
+				9960811D16A3718E0057783B /* page.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +244,8 @@
 				99A23B2C169A2A5A006E5C85 /* main.m in Sources */,
 				99A23B30169A2A5A006E5C85 /* FagteSangeAppDelegate.m in Sources */,
 				99A23B3F169A2A5A006E5C85 /* FagteSangeViewController.m in Sources */,
+				99A23B53169A38DA006E5C85 /* FagteSangeSelectViewController.m in Sources */,
+				9960811916A367E20057783B /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +372,7 @@
 				99A23B44169A2A5A006E5C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

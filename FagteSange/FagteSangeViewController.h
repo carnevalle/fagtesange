@@ -10,4 +10,6 @@
 
 @interface FagteSangeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
+
 @end
